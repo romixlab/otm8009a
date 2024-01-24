@@ -8,6 +8,8 @@ authors = [
 categories = ["embedded", "hardware-support", "no-std"]
 description = "Hardware Abstraction Layer for OTM8009A LCD controller IC"
 keywords = ["stm32h7xx", "hal", "dsi", "mipi", "lcd"]
+license = "MIT"
+repository = "https://github.com/romixlab/otm8009a"
 
 [dependencies]
 embedded-hal = "0.2"
