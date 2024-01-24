@@ -11,4 +11,4 @@ keywords = ["stm32h7xx", "hal", "dsi", "mipi", "lcd"]
 
 [dependencies]
 embedded-hal = "0.2"
-embedded-display-controller = { path = "../embedded-display-controller" }
+embedded-display-controller = "0.2"
