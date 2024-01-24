@@ -2,10 +2,13 @@
 name = "otm8009a"
 version = "0.1.0"
 edition = "2021"
+authors = [
+  "Roman Isaikin <romix.lab@gmail.com>"
+]
 categories = ["embedded", "hardware-support", "no-std"]
 description = "Hardware Abstraction Layer for OTM8009A LCD controller IC"
 keywords = ["stm32h7xx", "hal", "dsi", "mipi", "lcd"]
 
 [dependencies]
-embedded-hal = "0.2.6"
-embedded-dsi = { git = "https://github.com/romixlab/embedded-hal.git", branch = "dsi" }
+embedded-hal = "0.2"
+embedded-display-controller = { path = "../embedded-display-controller" }
